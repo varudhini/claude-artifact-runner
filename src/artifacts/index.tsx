@@ -611,4 +611,7 @@ const JourneyPomodoro = () => {
   );
 };
 
-export default JourneyPomodoro;
+export default function Artifact() {
+  return <JourneyPomodoro />;
+}
+
